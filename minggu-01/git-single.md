@@ -4,37 +4,37 @@
 ### Windows <h3>
 
 * Setelah download Git, double click pada file yang di-download. Akan dimunculkan lisensi. Klik Next untuk lanjut.
-    ![GitHub Logo](/Gambar/inst/1.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/1.jpg)
 * Setelah itu, pilih lokasi instalasi. Secara default akan terisi C:\Program Files\Git. Ganti lokasi jika memang anda menginginkan lokasi lain, klik Next
-    ![GitHub Logo](/Gambar/inst/2.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/2.jpg)
 * Pilih komponen. Tidak perlu diubah-ubah, sesuai dengan default saja. Klik pada Next.
-    ![GitHub Logo](/Gambar/inst/3.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/3.jpg)
 * Mengisi shortcut untuk menu Start. Gunakan default (Git), ganti jika ingin mengganti - misalnya Git VCS.
-    ![GitHub Logo](/Gambar/inst/4.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/4.jpg)
 * Pilih editor yang akan digunakan bersama dengan Git. Pada pilihan ini, digunakan Notepad++.
 
 * Pada saat instalasi, Git menyediakan akses git melalui Bash maupun command prompt. Pilih pilihan kedua supaya bisa menggunakan dari dua antarmuka tersebut. Bash adalah shell di Linux. Dengan menggunakan bash di Windows, pekerjaan di command line Windows bisa dilakukan menggunakan bash - termasuk ekskusi dari Git.
-    ![GitHub Logo](/Gambar/inst/5.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/5.jpg)
 * Pilih OpenSSL untuk HTTPS. Git menggunakan https untuk akes ke repo GitHub atau repo-repo lain (GitLab, Assembla).
 
 * Pilih pilihan pertama untuk konversi akhir baris (CR-LF).
-    ![GitHub Logo](/Gambar/inst/6.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/6.jpg)
 * Pilih PuTTY untuk terminal yang digunakan untuk mengakses Git Bash.
-    ![GitHub Logo](/Gambar/inst/7.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/7.jpg)
 * Untuk opsi ekstra, pilih serta aktifkan 1 dan 2.
-    ![GitHub Logo](/Gambar/inst/8.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/8.jpg)
 * Setelah itu proses instalasi akan dilakukan.
-    ![GitHub Logo](/Gambar/inst/10.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/10.jpg)
 * Jika selesai akan muncul dialog pemberitahuan. Klik pada Finish.
-    ![GitHub Logo](/Gambar/inst/11.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/inst/11.jpg)
 * Untuk menjalankan, dari Start menu, ketikkan "Git", akan muncul beberapa pilihan. Pilih "Git Bash" atau "Git GUI".
-    ![GitHub Logo](/Gambar/inst/new/1.png)
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/1.png)
 * Tampilan jika akan menggunakan "Git Bash"
-    ![GitHub Logo](/Gambar/inst/new/2.png)
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/2.png)
 * Tampilan jika akan menggunakan "Git GUI"
-    ![GitHub Logo](/Gambar/inst/new/3.png)
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/3.png)
 * Untuk mencoba dari command prompt, masuk ke command prompt, setelah itu eksekusi "git --version" untuk melihat apakah sudah terinstall atau belum. Jika sudah terinstall dengan benar, makan akan muncul hasil berikut:
-    ![GitHub Logo](/Gambar/inst/new/4.png)
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/4.png)
 
 ### Konfigurasi <h3>
 
