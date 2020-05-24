@@ -71,9 +71,9 @@ Perubahan isi bisa terjadi karena satu atau kombinasi beberapa hal berikut:
 * Membuat file / direktori baru
 * Menghapus direktori  
 
-Untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setelah itu push ke repo.
-
-
+Untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setelah itu push ke repo.   
+    ![GitHub Logo](/minggu-01/Gambar/12.jpg)
+    ![GitHub Logo](/minggu-01/Gambar/13.jpg)
 * Cara ini lebih mudah tetapi mempunyai resiko jika terjadi kesalahan dalam edit. Cara yang lebih aman tetapi memerlukan langkah yang lebih panjang adalah branching and merging
 
 ###### Mengubah Isi dengan Branching and Merging <h6>
@@ -88,20 +88,22 @@ Dengan menggunakan cara ini, setiap kali akan melakukan perubaham, perubahan itu
 * Merge branch untuk menampung perubahan-perubahan tersebut ke master.
 * Selesai.   
 
+    ![GitHub Logo](/minggu-01/Gambar/15.jpg)
 
 * Setelah itu, kirim pull request (PR):
-
+    ![GitHub Logo](/minggu-01/Gambar/16.jpg)
 * Setelah membuat PR, PR tersebut bisa di-merge:
-
+    ![GitHub Logo](/minggu-01/Gambar/17.jpg)
 * Setelah itu, Confirm Merge, branch yang kita kirimkan tadi sudah dimasukkan ke branch master. Setelah itu, merge di komputer lokal:
+    ![GitHub Logo](/minggu-01/Gambar/18.jpg)
 
 ###### Sinkronisasi <h6>
 Suatu saat, bisa saja terjadi kita menggunakan komputer lain dan mengedit repo melalui repo lokal di komputer lain, setelah itu pindah ke kamputer lain lagi. Saat itu, kita perlu melakukan sinkronisasi ke kemputer lokal. Perintah untuk sinkronisasi adalah:
-
+    ![GitHub Logo](/minggu-01/Gambar/181.jpg)
 Perintah ini dikerjakan di direktori tempat repo lokal kita berada.
 ###### Membatalkan Perubahan <h6>
 Praktik yang baik adalah membuat branch pada saat kita akan melakukan perubahan-perubahan. Jika perubahan-perubahan yang kita lakukan sudah sedemikian kacaunya, maka kita bisa membuat supaya perubahan-perubahan yang kacau tersebut hilang dan kembali ke kondisi bersih seperti semula.
-
+    ![GitHub Logo](/minggu-01/Gambar/20.jpg)
 
 ###### Undo Commit Terakhir <h6>
 * Suatu saat, mungkin kita sudah terlanjur mem-push perubahan ke repo GitHub, setelah itu kita baru menyadari bahwa perubahan tersebut salah. Untuk itu, kita bisa melakukan git revert.
