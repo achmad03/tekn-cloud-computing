@@ -17,24 +17,24 @@
     ![GitHub Logo](/minggu-01/Gambar/inst/5.JPG)
 * Pilih OpenSSL untuk HTTPS. Git menggunakan https untuk akes ke repo GitHub atau repo-repo lain (GitLab, Assembla).
 
-* Pilih pilihan pertama untuk konversi akhir baris (CR-LF).
+* Pilih pilihan pertama untuk konversi akhir baris (CR-LF).   
     ![GitHub Logo](/minggu-01/Gambar/inst/6.JPG)
-* Pilih PuTTY untuk terminal yang digunakan untuk mengakses Git Bash.
+* Pilih PuTTY untuk terminal yang digunakan untuk mengakses Git Bash.   
     ![GitHub Logo](/minggu-01/Gambar/inst/7.JPG)
-* Untuk opsi ekstra, pilih serta aktifkan 1 dan 2.
+* Untuk opsi ekstra, pilih serta aktifkan 1 dan 2.   
     ![GitHub Logo](/minggu-01/Gambar/inst/8.JPG)
-* Setelah itu proses instalasi akan dilakukan.
+* Setelah itu proses instalasi akan dilakukan.   
     ![GitHub Logo](/minggu-01/Gambar/inst/10.JPG)
-* Jika selesai akan muncul dialog pemberitahuan. Klik pada Finish.
+* Jika selesai akan muncul dialog pemberitahuan. Klik pada Finish.   
     ![GitHub Logo](/minggu-01/Gambar/inst/11.JPG)
-* Untuk menjalankan, dari Start menu, ketikkan "Git", akan muncul beberapa pilihan. Pilih "Git Bash" atau "Git GUI".
-    ![GitHub Logo](/minggu-01/Gambar/inst/new/1.png)
-* Tampilan jika akan menggunakan "Git Bash"
-    ![GitHub Logo](/minggu-01/Gambar/inst/new/2.png)
-* Tampilan jika akan menggunakan "Git GUI"
-    ![GitHub Logo](/minggu-01/Gambar/inst/new/3.png)
+* Untuk menjalankan, dari Start menu, ketikkan "Git", akan muncul beberapa pilihan. Pilih "Git Bash" atau "Git GUI".   
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/1.jpg)
+* Tampilan jika akan menggunakan "Git Bash"   
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/2.jpg)
+* Tampilan jika akan menggunakan "Git GUI"   
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/3.jpg)
 * Untuk mencoba dari command prompt, masuk ke command prompt, setelah itu eksekusi "git --version" untuk melihat apakah sudah terinstall atau belum. Jika sudah terinstall dengan benar, makan akan muncul hasil berikut:
-    ![GitHub Logo](/minggu-01/Gambar/inst/new/4.png)
+    ![GitHub Logo](/minggu-01/Gambar/inst/new/4.jpg)
 
 ### Konfigurasi <h3>
 
