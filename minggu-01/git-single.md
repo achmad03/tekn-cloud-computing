@@ -39,7 +39,7 @@
 ### Konfigurasi <h3>
 
 Secara minimal, user harus memberitahu Git tentang username serta email yang digunakan setiap kali terjadi perubahan pada repo Git. Username serta email ini yang akan dimasukkan oleh Git ke catatan perubahan di repo. Di sistem operasi Linux atau sejanis (UNIX), konfigurasi ini nantinya akan disimpan di $HOME/.gitconfig. Untuk sistem operasi Windows, konfigurasi ini akan disimpan di C:\Document and Settings\NamaUser dengan nama file .gitconfig. Secara minimal, ada 2 hal yang perlu dikonfigurasi yaitu username dan email. Gunakan perintah berikut:   
-    ![GitHub Logo](/minggu-01/Gambar/conf/4.PNG)
+    ![GitHub Logo](/minggu-01/Gambar/conf/4.PNG)   
 Isian di atas harus disesuaikan dengan nama serta email yang digunakan untuk mendaftar di GitHub. Untuk melihat konfigurasi yang sudah ada:
     ![GitHub Logo](/minggu-01/Gambar/conf/5.jpg)
 
@@ -48,7 +48,7 @@ Isian di atas harus disesuaikan dengan nama serta email yang digunakan untuk men
 #### Mengelola Repo Sendiri <h4>
 
 ##### Mengelola Repo Sendiri <h5>
-* Klik tanda + pada bagian atas setelah login, pilih New repository
+* Klik tanda + pada bagian atas setelah login, pilih New repository   
     ![GitHub Logo](/minggu-01/Gambar/7.jpg)
 * Isikan nama, keterangan, serta lisensi. Jika dikehendaki, bisa membuat repo Private
     ![GitHub Logo](/minggu-01/Gambar/8.jpg)
