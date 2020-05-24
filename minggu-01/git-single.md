@@ -5,7 +5,7 @@
 
 * Setelah download Git, double click pada file yang di-download. Akan dimunculkan lisensi. Klik Next untuk lanjut.
     ![GitHub Logo](/minggu-01/Gambar/inst/1.JPG)
-* Setelah itu, pilih lokasi instalasi. Secara default akan terisi C:\Program Files\Git. Ganti lokasi jika memang anda menginginkan lokasi lain, klik Next
+* Setelah itu, pilih lokasi instalasi. Secara default akan terisi C:\Program Files\Git. Ganti lokasi jika memang anda menginginkan lokasi lain, klik Next   
     ![GitHub Logo](/minggu-01/Gambar/inst/2.JPG)
 * Pilih komponen. Tidak perlu diubah-ubah, sesuai dengan default saja. Klik pada Next.
     ![GitHub Logo](/minggu-01/Gambar/inst/3.JPG)

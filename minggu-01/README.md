@@ -1,7 +1,10 @@
-#Isi file README.md hasil edit 1
-
-#konten 1
-
-Ini isi proyeka
-
-Ini isi 1
+# Pertemuan 1 <h1>
+>Nama   : Achmad Syarif Abdullah                
+>NIM    : 175610099
+### GIT <h3>
+### Latihan 1 <h4>
+[Git Single](git-single.md)
+### Laihan 2 <h4>
+[Rangkuman Cloud Computing](rangkuman-cloud-computing.md)
+### Tugas <h4>
+[Git Colab](git-kolaborasi.md)
