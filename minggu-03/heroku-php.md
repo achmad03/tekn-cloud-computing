@@ -1,3 +1,8 @@
+# ======= <h1>
+>Nama   : Achmad Syarif Abdullah                
+>NIM    : 175610099
+### ======= <h3>
+
 ### Deploy the app <h3>
 
 Pada langkah ini Anda akan menyebarkan aplikasi ke Heroku.
@@ -14,7 +19,7 @@ Sekarang sebarkan kode Anda:
      ![GitHub Logo](/minggu-03/Gambar/php/3.PNG)
 Aplikasi sekarang digunakan. Pastikan setidaknya satu instance aplikasi sedang berjalan:
 
-Sekarang kunjungi aplikasi di URL yang dihasilkan oleh nama aplikasinya. Sebagai pintasan praktis, Anda dapat membuka situs web sebagai berikut:
+Sekarang kunjungi aplikasi di URL yang dihasilkan oleh nama aplikasinya. Sebagai pintasan praktis, Anda dapat membuka situs web sebagai berikut:   
      ![GitHub Logo](/minggu-03/Gambar/php/4.PNG)
      ![GitHub Logo](/minggu-03/Gambar/php/31.PNG)
 
@@ -28,7 +33,7 @@ Saat ini, aplikasi Anda berjalan pada satu dino web. Pikirkan dyno sebagai wadah
 Anda dapat memeriksa berapa banyak dyno yang berjalan menggunakan perintah ps:
      ![GitHub Logo](/minggu-03/Gambar/php/6.PNG)
 
-Penskalaan aplikasi pada Heroku sama dengan mengubah jumlah dino yang sedang berjalan. Skala jumlah dinamika web menjadi nol:
+Penskalaan aplikasi pada Heroku sama dengan mengubah jumlah dino yang sedang berjalan. Skala jumlah dinamika web menjadi nol:   
      ![GitHub Logo](/minggu-03/Gambar/php/7.PNG)
 
 ### Declare app dependencies <h3>
