@@ -35,7 +35,8 @@ Kode di atas berguna untuk menampilkan data dengan bentuk JSON di browser. Fungs
 
 ### Isikan file models/mahasiswa.go <h3>
 Sekarang kita buat modelnya, silahkan buka models/mahasiswa.go.   
-    ![GitHub Logo](/minggu-06/Gambar/mysql/2.PNG)
+    ![GitHub Logo](/minggu-06/Gambar/mysql/2.PNG)   
+    ![GitHub Logo](/minggu-06/Gambar/mysql/7.PNG)
 
         
     package models
@@ -147,7 +148,8 @@ Silahkan buka lagi file main.go nya, kita akan membuat method dan routing.
 
 ### Query Menampilkan Data dari Database MySQL dengan Golang <h3>
 Silahkan buka file mahasiswa/repository_mysql.go.   
-    ![GitHub Logo](/minggu-06/Gambar/mysql/5.PNG)
+    ![GitHub Logo](/minggu-06/Gambar/mysql/5.PNG)   
+    ![GitHub Logo](/minggu-06/Gambar/mysql/6.PNG)
 
         
     package mahasiswa
