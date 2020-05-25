@@ -61,7 +61,7 @@ Pertama, tambahkan file yang dimodifikasi ke repositori git lokal:
      ![GitHub Logo](/minggu-03/Gambar/php/32.PNG)
 
 ### Start an interactive shell <h3>
-Anda dapat menjalankan perintah, biasanya skrip dan aplikasi yang merupakan bagian dari aplikasi Anda, dalam satu dino menggunakan perintah heroku run. Itu juga dapat digunakan untuk meluncurkan shell PHP interaktif yang terpasang pada terminal lokal Anda untuk bereksperimen di lingkungan aplikasi Anda:
+Anda dapat menjalankan perintah, biasanya skrip dan aplikasi yang merupakan bagian dari aplikasi Anda, dalam satu dino menggunakan perintah heroku run. Itu juga dapat digunakan untuk meluncurkan shell PHP interaktif yang terpasang pada terminal lokal Anda untuk bereksperimen di lingkungan aplikasi Anda:   
      ![GitHub Logo](/minggu-03/Gambar/php/13.PNG)   
      ![GitHub Logo](/minggu-03/Gambar/php/14.PNG)
 
