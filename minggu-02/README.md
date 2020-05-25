@@ -3,6 +3,8 @@
 >NIM    : 175610099
 ### GIT <h3>
 ### Latihan 1 <h4>
-[Rangkuman SAAS](rangkuman-saas.md)
+[Git Single](git-single.md)
+### Latihan 2 <h4>
+[Rangkuman Cloud Computing](rangkuman-cloud-computing.md)
 ### Tugas <h4>
-[Layanan SAAS](layanan-saas.md)
+[Git Colab](git-kolaborasi.md)
