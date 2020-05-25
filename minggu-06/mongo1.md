@@ -4,7 +4,7 @@
 ### ======= <h3>
 
 ### Import <h3>
-import library
+import library   
     ![GitHub Logo](/minggu-06/Gambar/mongo/1.PNG)   
         
     package main
@@ -23,7 +23,7 @@ import library
     )
 
 ### Koneksi <h3>
-buat koneksi ke mongo
+buat koneksi ke mongo   
     ![GitHub Logo](/minggu-06/Gambar/mongo/3.PNG)   
         
     func main() {
@@ -37,7 +37,7 @@ buat koneksi ke mongo
     }
 
 ### Model <h3>
-buat model data
+buat model data   
     ![GitHub Logo](/minggu-06/Gambar/mongo/2.PNG)   
 
         
@@ -52,7 +52,7 @@ buat model data
     }
 
 ### Query <h3>
-buat query data
+buat query data   
     ![GitHub Logo](/minggu-06/Gambar/mongo/4.PNG)   
     ![GitHub Logo](/minggu-06/Gambar/mongo/5.PNG)   
 
