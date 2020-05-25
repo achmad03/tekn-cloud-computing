@@ -13,12 +13,12 @@ Untuk mengkloning aplikasi sampel sehingga Anda memiliki versi lokal dari kode y
 Pada langkah ini Anda akan menyebarkan aplikasi ke Heroku.
 
 Buat aplikasi di Heroku, yang menyiapkan Heroku untuk menerima kode sumber Anda:
-    ![GitHub Logo](/minggu-03/Gambar/2.PNG)
-Sekarang sebarkan kode Anda:
+    ![GitHub Logo](/minggu-03/Gambar/2.PNG)   
+Sekarang sebarkan kode Anda:   
     ![GitHub Logo](/minggu-03/Gambar/3.PNG)
 Aplikasi sekarang digunakan. Pastikan setidaknya satu instance aplikasi sedang berjalan:
     ![GitHub Logo](/minggu-03/Gambar/4.PNG)
-Sekarang kunjungi aplikasi di URL yang dihasilkan oleh nama aplikasinya. Sebagai pintasan praktis, Anda dapat membuka situs web sebagai berikut:
+Sekarang kunjungi aplikasi di URL yang dihasilkan oleh nama aplikasinya. Sebagai pintasan praktis, Anda dapat membuka situs web sebagai berikut:   
     ![GitHub Logo](/minggu-03/Gambar/5.PNG)
     ![GitHub Logo](/minggu-03/Gambar/05.PNG)
 
@@ -54,7 +54,7 @@ Pada langkah ini Anda akan belajar bagaimana menyebarkan perubahan lokal ke apli
 
 Install requests locally:
     ![GitHub Logo](/minggu-03/Gambar/14.PNG)
-    ![GitHub Logo](/minggu-03/Gambar/15.PNG)
+    ![GitHub Logo](/minggu-03/Gambar/15.PNG)   
     ![GitHub Logo](/minggu-03/Gambar/17.PNG)      
 ### Deploy changes <h3>
 Deploy hasil edit    
@@ -69,6 +69,6 @@ Anda dapat menjalankan perintah, biasanya skrip dan aplikasi yang merupakan bagi
     ![GitHub Logo](/minggu-03/Gambar/19.PNG)
 
 ### Define config vars <h3>
-Heroku memungkinkan Anda melakukan eksternalisasi konfigurasi - menyimpan data seperti kunci enkripsi atau alamat sumber daya eksternal dalam konfigurasi.
+Heroku memungkinkan Anda melakukan eksternalisasi konfigurasi - menyimpan data seperti kunci enkripsi atau alamat sumber daya eksternal dalam konfigurasi.   
     ![GitHub Logo](/minggu-03/Gambar/20.PNG)
     ![GitHub Logo](/minggu-03/Gambar/21.PNG)
