@@ -4,7 +4,7 @@
 ### ======= <h3>
 
 ### Langkah 1: Perintah Jaringan Docker <h3>
-Perintah jaringan buruh pelabuhan adalah perintah utama untuk mengonfigurasi dan mengelola jaringan kontainer. Jalankan perintah jaringan buruh pelabuhan dari terminal pertama.
+Perintah jaringan buruh pelabuhan adalah perintah utama untuk mengonfigurasi dan mengelola jaringan kontainer. Jalankan perintah jaringan buruh pelabuhan dari terminal pertama.   
     ![GitHub Logo](/minggu-10/Gambar/1.PNG)  
 ### Langkah 2: Daftar jaringan <h3>
 Jalankan jaringan buruh pelabuhan ls perintah untuk melihat jaringan kontainer yang ada pada host Docker saat ini.
@@ -21,7 +21,7 @@ Jalankan perintah info buruh pelabuhan dan temukan daftar plugin jaringan.
 
 ### Bagian # 2 - Jembatan Jaringan
 ### Langkah 1: Dasar-Dasarnya <h3>
-Setiap instalasi Docker yang bersih dilengkapi dengan jaringan yang disebut jembatan. Verifikasi ini dengan jaringan buruh pelabuhan ls.
+Setiap instalasi Docker yang bersih dilengkapi dengan jaringan yang disebut jembatan. Verifikasi ini dengan jaringan buruh pelabuhan ls.   
     ![GitHub Logo](/minggu-10/Gambar/5.PNG)  
 Semua jaringan yang dibuat dengan driver jembatan didasarkan pada Linux bridge (a.k.a. switch virtual).
     ![GitHub Logo](/minggu-10/Gambar/6.PNG)  
@@ -34,7 +34,7 @@ Jaringan jembatan adalah jaringan default untuk wadah baru. Ini berarti bahwa ke
     ![GitHub Logo](/minggu-10/Gambar/10.PNG)  
 Buat wadah baru dengan menjalankan docker run -dt ubuntu sleep infinity.
     ![GitHub Logo](/minggu-10/Gambar/11.PNG)  
-Perintah ini akan membuat wadah baru berdasarkan ubuntu: gambar terbaru dan akan menjalankan perintah tidur untuk menjaga wadah tetap berjalan di latar belakang. Anda dapat memverifikasi wadah contoh kami sudah habis dengan menjalankan buruh pelabuhan ps.
+Perintah ini akan membuat wadah baru berdasarkan ubuntu: gambar terbaru dan akan menjalankan perintah tidur untuk menjaga wadah tetap berjalan di latar belakang. Anda dapat memverifikasi wadah contoh kami sudah habis dengan menjalankan buruh pelabuhan ps.   
     ![GitHub Logo](/minggu-10/Gambar/12.PNG)  
     ![GitHub Logo](/minggu-10/Gambar/13.PNG)  
 ### Langkah 3: Uji konektivitas jaringan <h3>
@@ -50,5 +50,5 @@ Dalam langkah ini kami akan memulai wadah NGINX baru dan memetakan port 8080 pad
 
 Mulai wadah baru berdasarkan gambar NGINX resmi dengan menjalankan docker run --name web1 -d -p 8080: 80 nginx.
     ![GitHub Logo](/minggu-10/Gambar/17.PNG)  
-Jika karena alasan tertentu Anda tidak dapat membuka sesi dari web broswer, Anda dapat terhubung dari host Docker Anda menggunakan perintah curl 127.0.0.1:8080.
+Jika karena alasan tertentu Anda tidak dapat membuka sesi dari web broswer, Anda dapat terhubung dari host Docker Anda menggunakan perintah curl 127.0.0.1:8080.   
     ![GitHub Logo](/minggu-10/Gambar/18.PNG)  
