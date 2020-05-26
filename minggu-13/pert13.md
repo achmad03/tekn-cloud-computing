@@ -4,7 +4,7 @@
 ### ======= <h3>
 
 ### Cluster dan jalankan <h3>
-Kami sudah menginstal minikube untuk Anda. Periksa apakah sudah diinstal dengan benar, dengan menjalankan perintah versi minikube:
+Kami sudah menginstal minikube untuk Anda. Periksa apakah sudah diinstal dengan benar, dengan menjalankan perintah versi minikube:   
     ![GitHub Logo](/minggu-13/Gambar/1.PNG)
 
 OK, kita bisa melihat bahwa minikube sudah ada.
@@ -28,7 +28,7 @@ Mari kita lihat detail cluster. Kami akan melakukannya dengan menjalankan Kubect
 
 
 
-Selama tutorial ini, kami akan berfokus pada baris perintah untuk menggunakan dan menjelajahi aplikasi kami. Untuk melihat node di cluster, jalankan perintah kubectl get node:
+Selama tutorial ini, kami akan berfokus pada baris perintah untuk menggunakan dan menjelajahi aplikasi kami. Untuk melihat node di cluster, jalankan perintah kubectl get node:   
     ![GitHub Logo](/minggu-13/Gambar/5.PNG)
 
 
@@ -43,7 +43,7 @@ Periksa apakah kubectl dikonfigurasikan untuk berbicara dengan kluster Anda, den
 
 OK, kubectl diinstal dan Anda dapat melihat versi klien dan server.
 
-Untuk melihat node di cluster, jalankan perintah kubectl get node:
+Untuk melihat node di cluster, jalankan perintah kubectl get node:   
     ![GitHub Logo](/minggu-13/Gambar/7.PNG)
 
 Di sini kita melihat node yang tersedia (1 dalam kasus kami). Kubernetes akan memilih tempat untuk menyebarkan aplikasi kami berdasarkan sumber daya Node yang tersedia.
@@ -53,7 +53,7 @@ Mari kita gunakan aplikasi pertama kita di Kubernetes dengan kubectl create comm
 
 kubectl membuat penyebaran kubernetes-bootcamp --image = gcr.io / google-samples / kubernetes-bootcamp: v1
 
-Bagus! Anda baru saja menggunakan aplikasi pertama Anda dengan membuat penyebaran. Ini melakukan beberapa hal untuk Anda:
+Bagus! Anda baru saja menggunakan aplikasi pertama Anda dengan membuat penyebaran. Ini melakukan beberapa hal untuk Anda:   
     ![GitHub Logo](/minggu-13/Gambar/8.PNG)
 
 mencari simpul yang cocok di mana instance aplikasi dapat dijalankan (kami hanya memiliki 1 node yang tersedia)
@@ -78,7 +78,7 @@ echo -e "\ n \ n \ n \ e [92mulai Proxy. Setelah memulai tidak akan menghasilkan
 proksi kubectl
 Kami sekarang memiliki koneksi antara host kami (terminal online) dan kluster Kubernetes. Proxy memungkinkan akses langsung ke API dari terminal ini.
 
-Anda dapat melihat semua API yang dihosting melalui titik akhir proxy. Misalnya, kami dapat meminta versi langsung melalui API menggunakan perintah curl:
+Anda dapat melihat semua API yang dihosting melalui titik akhir proxy. Misalnya, kami dapat meminta versi langsung melalui API menggunakan perintah curl:   
     ![GitHub Logo](/minggu-13/Gambar/11.PNG)
 
 Jika Port 8001 tidak dapat diakses, pastikan bahwa proksi kubectl yang dimulai di atas berjalan.
@@ -90,7 +90,7 @@ Pertama kita perlu mendapatkan nama Pod, dan kami akan menyimpan di variabel lin
 export POD_NAME = $ (kubectl dapatkan pod -o-templat --template '{{range .items}} {{. metadata.name}} {{"\ n"}} {{end}}')
 echo Name of the Pod: $ POD_NAME
 
-Catatan: Periksa bagian atas terminal. Proxy dijalankan di tab baru (Terminal 2), dan perintah terbaru dijalankan pada tab asli (Terminal 1). Proxy masih berjalan di tab kedua, dan ini memungkinkan perintah curl kami untuk bekerja menggunakan localhost: 8001.
+Catatan: Periksa bagian atas terminal. Proxy dijalankan di tab baru (Terminal 2), dan perintah terbaru dijalankan pada tab asli (Terminal 1). Proxy masih berjalan di tab kedua, dan ini memungkinkan perintah curl kami untuk bekerja menggunakan localhost: 8001.   
     ![GitHub Logo](/minggu-13/Gambar/12.PNG)
 
 Agar penyebaran baru dapat diakses tanpa menggunakan Proxy, Layanan diperlukan yang akan dijelaskan dalam modul berikutnya.
