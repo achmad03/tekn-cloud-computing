@@ -1,3 +1,8 @@
+# ======= <h1>
+>Nama   : Achmad Syarif Abdullah                
+>NIM    : 175610099
+### ======= <h3>
+
 ### Prasyarat <h3>
 Pastikan Anda sudah menginstal Docker Engine dan Docker Compose. Anda tidak perlu menginstal Python atau Redis, karena keduanya disediakan oleh gambar Docker.
 
