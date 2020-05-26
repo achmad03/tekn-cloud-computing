@@ -25,7 +25,7 @@ Setiap instalasi Docker yang bersih dilengkapi dengan jaringan yang disebut jemb
     ![GitHub Logo](/minggu-10/Gambar/5.PNG)  
 Semua jaringan yang dibuat dengan driver jembatan didasarkan pada Linux bridge (a.k.a. switch virtual).
     ![GitHub Logo](/minggu-10/Gambar/6.PNG)  
-Instal perintah brctl dan gunakan untuk mendaftar jembatan Linux di host Docker Anda. Anda dapat melakukan ini dengan menjalankan sudo apt-get install bridge-utils.
+Instal perintah brctl dan gunakan untuk mendaftar jembatan Linux di host Docker Anda. Anda dapat melakukan ini dengan menjalankan sudo apt-get install bridge-utils.   
     ![GitHub Logo](/minggu-10/Gambar/7.PNG)  
     ![GitHub Logo](/minggu-10/Gambar/8.PNG)  
     ![GitHub Logo](/minggu-10/Gambar/9.PNG)  
