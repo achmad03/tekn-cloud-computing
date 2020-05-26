@@ -4,11 +4,11 @@
 ### ======= <h3>
 
 ### Pengaturan Panggung
-Mari kita mulai dengan mengkloning repositori kode demo, mengubah direktori kerja, dan memeriksa cabang demo terlebih dahulu.
+Mari kita mulai dengan mengkloning repositori kode demo, mengubah direktori kerja, dan memeriksa cabang demo terlebih dahulu.   
     ![GitHub Logo](/minggu-11/Gambar/1.PNG)
     ![GitHub Logo](/minggu-11/Gambar/2.PNG)
 ### Langkah 0: Skrip Extractor Tautan Dasar <h3>
-Periksa cabang step0 dan daftarkan file di dalamnya.
+Periksa cabang step0 dan daftarkan file di dalamnya.   
     ![GitHub Logo](/minggu-11/Gambar/3.PNG)
 
 File linkextractor.py adalah yang menarik di sini, jadi mari kita lihat isinya:
@@ -30,7 +30,7 @@ Sejauh ini, kami baru saja menggambarkan bagaimana kami ingin gambar Docker kami
 Kami telah membuat gambar Docker bernama linkextractor: step1 berdasarkan Dockerfile yang diilustrasikan di atas. Jika build berhasil, kita harus dapat melihatnya di daftar gambar:
     ![GitHub Logo](/minggu-11/Gambar/9.PNG)
 
-Gambar ini harus memiliki semua bahan yang diperlukan yang dikemas di dalamnya untuk menjalankan skrip di mana saja pada mesin yang mendukung Docker. Sekarang, mari kita jalankan wadah satu kali dengan gambar ini dan ekstrak tautan dari beberapa halaman web langsung:
+Gambar ini harus memiliki semua bahan yang diperlukan yang dikemas di dalamnya untuk menjalankan skrip di mana saja pada mesin yang mendukung Docker. Sekarang, mari kita jalankan wadah satu kali dengan gambar ini dan ekstrak tautan dari beberapa halaman web langsung:   
     ![GitHub Logo](/minggu-11/Gambar/10.PNG)
 
 ### Langkah 2: Tautkan Modul Extractor dengan URI dan Teks Jangkar Penuh <h3>
@@ -42,7 +42,7 @@ Pada langkah ini skrip linkextractor.py diperbarui dengan perubahan fungsional b
 Jalur dinormalisasi ke URL lengkap
 Melaporkan tautan dan teks jangkar
 Dapat digunakan sebagai modul di skrip lain
-Mari kita lihat skrip yang diperbarui:
+Mari kita lihat skrip yang diperbarui:   
     ![GitHub Logo](/minggu-11/Gambar/12.PNG)
     ![GitHub Logo](/minggu-11/Gambar/13.PNG)
     ![GitHub Logo](/minggu-11/Gambar/14.PNG)
