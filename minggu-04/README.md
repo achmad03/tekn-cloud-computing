@@ -20,4 +20,4 @@ melakukan edit dengan nano
 
 ### Mengisi File local.conf <h3>
 mengisi file dengan editor
-    ![GitHub Logo](/minggu-04/Gambar/8.jpg)  
+    ![GitHub Logo](/minggu-04/Gambar/9.jpg)  
